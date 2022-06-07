@@ -6,23 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Una Eco | Formulário </title>
-    <link rel="stylesheet" href="../css/estiloform.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/estiloform.css">    
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">    
 </head>
 
 <body>
-
-    <div class="limita-largura">
-        <header class="cabecalho">
-            <img class="cabecalho-imagem" src="../imagens/unaeco.png" alt="">
-            <nav class="cabecalho-menu">
-                <a class="cabecalho-menu-item " href="">Inicio</a>
-                <a class="cabecalho-menu-item" href="">Saiba mais</a>
-                <a class="cabecalho-menu-item" href="">Parceiros</a>
-                <a class="cabecalho-menu-item" href="">Noticiais</a>
-                <a class="cabecalho-menu-item especial" href="">Doe AGORA</a>
-            </nav>
-        </header>
-
+<!--CABEÇALHO SITE-->
+<section class="secao">
+<div class="back2">
+    <header class="menu">   
+      <nav class="navbar">
+        <div class="max-width">
+          <div><a href="#"><img class="img-fluid" src="../img/home/logo home-1.png" /></a></div>
+                  <ul class="menu">
+                    <li><a href="#">INÍCIO</a></li>
+                    <li><a href="#">SAIBA MAIS <br>SOBRE O PROJETO</a></li>
+                    <li><a href="#">PARCEIROS</a></li>
+                    <li><a href="#"> NOTÍCIAS</br> E</br> HISTÓRIAS </a></li>
+                    <li><a href="#"> <span class="doe-agora">DOE AGORA</span> </a></li>
+                </ul>
+                </div>
+</header>
+</section>
         <section class="secao">
             <h1>Como a sua doação faz a diferença</h1>
             <p>Preencha o Formulário para saber pra onde seu dinheiro está sendo destinado</p>
@@ -37,28 +44,63 @@
             <button>Confirmar inscrição</button>
         </section>
 
-
-
-        <section class="secao-rodape">
-            <h2>VOCÊ PODE SALVAR O MUNDO!</h2>
-            <div class="secao-rodape-conteudo">
-                <div class="secao-rodape-informacoes">
-                    <h5>INFORMAÇÕES</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus ne ullamcorper
-                        mattis, pulvinar dapibus leo.</p>
-                    <img src="../imagens/fb.png" alt="">
-                    <img src="../imagens/twt.png" alt="">
-                    <img src="../imagens/inst.png" alt="">
-                    <img src="../imagens/lkd.png" alt="">
-                </div>
-
-                <div class="secao-rodape-contato">
-                    <h5>CONTATO</h5>
-                    <p>Endereço</p>
-                    <p><a href="mailto:unaeco@unaeco.com">unaeco@unaeco.com</a></p>
+        <!--RODAPÉ SITE-->
+  <footer id="footer">
+    
+    <div class="footer-top">
+      <div class="container">
+        
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <h1 class="mb-5 text-center ">VOCÊ PODE SALVAR O MUNDO!</h1> 
+      </div>
+      <div class="block-footer"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-md-6">
+            <div class="footer-info">
+		          <h2 class="mb-5">INFORMAÇÕES</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+                <div> <img class="social-icon" src="/img/home/Social Icon.svg" /> 
                 </div>
             </div>
-        </section>
+          </div>
+          <div class="col-lg-2 col-md-6">
+          <div class="footer-info">
+          <h2 class="mb-5">CONTATO</h2>
+          <div> <img src="/img/home/icon-endereço.svg" class="rounded float-left p-1" />
+            <p>endereço</p> 
+              </div>
+                <div> <img src="/img/home/icon-email.svg" class="rounded float-left p-1"/> 
+                </div>
+                  <p>Unaeco@unaeco.com</p>
+                  <form class = "mb-4"method="post">
+                    <input type="email" name="email">
+                  </form>
+              <button type="button" class="btn btn-success" id="btn-2"> Inscrever </button>
+              <div id="linha-vertical"></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="direitos">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+  <p class="">ALLRIGHT RESERVED</p>
+      </div>
+  <div class="col-sm col-md-3">
+  <p class="">POLITÍCA DE PRIVACIDADE</p>
+      </div>
+  <div class="col-sm col-md-2">
+  <p class="">TERMOS DE USO </p>
+</div>
+  </div>
+</div>
+  </footer>
 </body>
 
 </html>

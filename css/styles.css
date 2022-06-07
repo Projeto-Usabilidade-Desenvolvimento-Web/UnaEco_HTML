@@ -2,6 +2,12 @@
     background-color: #254330;
     
 }
+.back2{
+    background-color: #254330;
+}
+.menuntc{
+    background-color: #254330;
+}
 .menu-principalntc{
     background-color: #254330;
     height: 2500px;
@@ -198,9 +204,9 @@
 }
 
 .outrasntc{
-    margin-left: 200px;
+    margin-left: 15%;
     margin-top: 60px;
-    font-size: 100px;
+    font-size: 100px;    
     color: white;
     
     
@@ -365,8 +371,4 @@
     margin-top: 10px;
     margin-left: 700px;
     background-color: #254330;
-
 }
-
-
-
