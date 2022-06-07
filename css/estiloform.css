@@ -4,7 +4,8 @@ html, body {
     box-sizing: border-box;
     font-size: 22px;
 }
-body{
+
+body {
     background-color: white;
 }
 
@@ -66,6 +67,7 @@ body{
     margin-top: 45px;
     margin-bottom: 35px;
 }
+
 .secao p {
     font-size: 65%;
 }
@@ -80,10 +82,9 @@ body{
     font-size: 100%;
 }
 
-.secao-form h3 {
- }
 
-.secao-form p{
+
+.secao-form p {
     font-size: 65%;
     margin-bottom: 55px;
 }
@@ -114,8 +115,9 @@ body{
     padding-top: 15px;
     font-family: sans-serif;
 
-    
+
 }
+
 .secao-rodape h2 {
     text-align: center;
     color: white;
@@ -126,16 +128,12 @@ body{
     color: white;
     font-size: 70%;
     display: flex;
-    align-items: center;
-    justify-content: space-around
-
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.secao-rodape-informacoes {
-    width: 250px;
-}
+.secao-rodape-informacoes{
+    width: 25%;
+ }
 
 
-.secao-rodape-contato {
-    width: 250px
-}
