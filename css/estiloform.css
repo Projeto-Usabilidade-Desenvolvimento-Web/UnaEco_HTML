@@ -64,11 +64,25 @@ body{
 }
 
 .secao h1 {
-    margin-top: 45px;
-    margin-bottom: 35px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 46px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 45px;
+margin-bottom: 35px;
 }
 .secao p {
-    font-size: 65%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+
 }
 
 .secao-form {
@@ -82,11 +96,19 @@ body{
 }
 
 .secao-form h3 {
- }
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+
 
 .secao-form p{
     font-size: 65%;
     margin-bottom: 55px;
+    
 }
 
 .secao-form input {
@@ -98,16 +120,15 @@ body{
     background-color: rgb(228, 225, 225)
 }
 
-.secao-form button {
-    width: 20%;
-    padding: 15px;
-    border-radius: 25px;
-    background-color: rgb(25, 155, 25);
-    color: white;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 55px;
+#btn-inscrição {
+width: 30%;
+height: 72px;
+left: 539px;
+top: 1044px;
+background: #53C351;
+border-radius: 58.5px;
+margin-bottom: 50px;
+border:none!important;
 }
 
 .secao-rodape {

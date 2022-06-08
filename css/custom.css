@@ -114,6 +114,7 @@ a {
 .estamos-lutando-depoimentos{
 width: 100%; 
 background: linear-gradient(180deg, #E2EEEC -5.54%, rgba(227, 239, 237, 0) 100%);
+
 }
 
 .estamos-lutando-depoimentos h2 {
@@ -363,12 +364,9 @@ color: #FFFFFF;
   font-weight: 700;
   font-size: 15px;
   color: #FFFFFF;
+  margin-top: 10px;
   
 }
-
-
-
-
 
 
 /*----------------Página de doação------------------------*/
@@ -417,3 +415,29 @@ color: #FFFFFF;
 .paragrafo{
   margin-top: -500px;
 }
+
+.card {
+width: 100%;
+height: 460px;
+border-radius: 38px;
+
+}
+
+#texto-info-doacao1 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+color: #ffffff;
+margin-top: 100px;
+}
+
+#btn-circle{
+  align-items: center;
+  width: 197px;
+  height: 37px;
+  background: #57BF37;
+  border-radius: 50px;
+  border:none!important;
+
+  }
