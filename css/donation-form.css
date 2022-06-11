@@ -1,0 +1,234 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAF8F8;
+}
+
+.container {
+    max-width: 1180px;
+    margin:0 auto;
+}
+
+.header {
+    background-color: #254330;
+    padding: 30px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    max-height: 65px;
+}
+
+.header .menu {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 0;
+}
+
+.header .menu .item {
+    list-style: none;
+    padding: 0 20px;
+    text-align: center;
+    max-width: 145px;
+}
+
+.header .menu .item a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header .menu .item a:hover {
+    text-shadow: #fff 1px 0 8px;
+}
+
+.header .menu .item.donate a {
+    color: #C3D94C;
+}
+
+.header .menu .item.donate a:hover {
+    text-shadow: #C3D94C 1px 0 8px;
+}
+
+.page-top {
+    background-color: #254330;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.page-top {
+    color: #fff;
+}
+
+.page-title {
+    font-size: 5.5rem;
+    font-weight: 600;
+    margin: 0 auto 30px;
+}
+
+.subtitle {
+    max-width: 600px;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 60px 0;
+    font-size: 1.8rem;
+}
+
+.content .section-title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.form-field {
+    padding-bottom: 25px;
+}
+
+.form-field label,
+.form-field input {
+    display: block;
+    margin: 5px 0 10px;
+}
+
+.form-field label {
+    font-weight: 500;
+}
+
+.form-field input {
+    background-color: #fff;
+    border: 1px solid #EFF0F6;
+    border-radius: 45px;
+    height: 66px;
+    padding: 0 20px;
+    width: 700px;
+    max-width: 100%;
+    font-size: 1.8rem;
+}
+
+button.enroll {
+    display: block;
+    background-color: #53C351;
+    border: none;
+    height: 102px;
+    color: #fff;
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin: 20px auto;
+    padding: 0 35px;
+    border-radius: 50px;
+    cursor: pointer
+}
+
+button.enroll:hover {
+    background-color: #33A331;
+}
+
+.footer {
+    background-color: #254330;
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 30px 0;
+}
+
+.footer-top h3 {
+    font-size: 5.5rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.footer-content {
+    padding-top: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content .about-us,
+.footer-content .contact {
+    max-width: 400px;
+}
+
+.footer-content .about-us .title,
+.footer-content .contact .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.footer-content .social-links {
+    padding-left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-content .social-links li {
+    list-style: none;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-content .contact-links {
+    padding-left: 0;
+}
+
+.footer-content .contact-links li {
+    list-style: none;
+}
+
+.newsletter-form {
+    margin: 10px 0;
+}
+
+.footer .newsletter-form input {
+    background-color: #fff;
+    border: none;
+    color: #333;
+    display: block;
+    height: 50px;
+    width: 100%;
+    margin: 5px 0;
+    padding: 0 15px;
+}
+
+.footer .newsletter-form button {
+    background-color: #33A331;
+    border: none;
+    color: #fff;
+    height: 50px;
+    padding: 0 30px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.footer .newsletter-form button:hover {
+    background-color: #33A331;
+}
+
+@media (max-width: 1160px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
