@@ -96,10 +96,11 @@ color: #FFFFFF;
 }
 
 .secao-form h3 {
-    font-family: 'DM Sans';
+    margin-top: 35px;
+    margin-bottom: 35px;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 45px;
     line-height: 35px;
     color: #000000;
 }
@@ -112,13 +113,57 @@ color: #FFFFFF;
 }
 
 .secao-form input {
-    width: 40%;
+    width: 100%;
     padding: 15px;
     margin-bottom: 55px;
     border-radius: 25px;
     border: none;
-    background-color: rgb(228, 225, 225)
+    background-color: rgb(228, 225, 225);
+    outline: none;
+
 }
+
+.controller-form{
+    position: relative;
+}
+
+.controller-form.success input {
+    border: 3px solid #4ECA64;
+}
+
+.controller-form.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.controller-form.success i.img-success {
+    visibility: visible;
+}
+
+.controller-form.error i.img-error {
+    visibility: visible;
+}
+
+.controller-form.error small {
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.controller-form i {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    visibility: hidden;
+}
+
+.controller-form small {
+    position: absolute;
+    font-size: 14px;
+    margin-top: 75px;
+    right: 150px;
+    visibility: hidden;
+}
+
+
 
 #btn-inscrição {
 width: 30%;
